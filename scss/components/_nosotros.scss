@@ -1,0 +1,32 @@
+
+/* nosotros */
+
+.nosotros {
+    background-color: #202020;
+    display: flex;
+    width: 100%;
+}
+
+
+.nosotros__content {
+    width:50%;
+}
+
+.nosotros__content__title{
+    font-size: 40px;
+    padding: 30px;
+    color: #eee;
+    
+}
+
+.nosotros__content__subtitle {
+    font-size: 34px;
+    padding: 10px;
+    color: #eee;
+}
+
+.nosotros img {
+    width: 50%;
+    height: 70vh;
+    
+}
