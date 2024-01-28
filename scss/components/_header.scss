@@ -2,7 +2,7 @@
  ubicar los elementos en el header en columnaas */
 
  header {
-    background-color: #202020;
+    background-color: $bg-header;
     display: flex;
     flex-direction: column;
 }
@@ -17,7 +17,7 @@
     width: 100%;
     align-items: center;
     padding: 30px 10px;
-    background-color: #eee;
+    background-color: $bg-nav;
 }
  /* ahora dividiremos el nav en dos partes, el logo y losn ancor que redirecionan,
   a uno le ponmdremos que ocupe el 30% del ancho y al otro el 70% del ancho* por separado,
@@ -28,7 +28,7 @@
 .nav a {
     width: 30%;
     text-decoration: none;
-    color: #000;
+    color: $color-font-nav;
     font-size: 24px;
 }
 
@@ -73,7 +73,7 @@
 
 .hero__title {
     font-size: 54px;
-    color: #fff;
+    color:$color-font-hero;
 }
 
 .hero__subtitle {
