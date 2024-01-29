@@ -1,0 +1,37 @@
+/* Footer, al footer lo vamos a dividir en dos partes, aunque
+ en la clase footer vamoa darle los estilos generales , el color
+  de fondo, display, el widh del 100%, separar las redes sociales
+   de el mapa, y un padding para ardnarlo de varios lados.*/
+
+//    Footer
+
+.footer {
+    background-color: $color-footer;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 35px 0px;
+}
+
+.footer__left {
+    color: #eee;
+}
+ 
+.footer__left li {
+    list-style: none;
+}
+
+.footer__left li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #eee;
+}
+
+.footer__center iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+/* para sacar los estilos que v ienen popr defecto tenemos que llegar 
+hasta lo mas cercano del elemento, y cambiar el color a las fonts,
+por ultimo le damos forma al mapa, con un border radius */

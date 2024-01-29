@@ -1,5 +1,8 @@
 
-$bg-header: #202020;
-$bg-nav: #eee;
-$color-font-nav: #000;
-$color-font-hero: #fff;
+@import"./listas";
+
+$bg-header: nth($colores, 1);
+$bg-nav: nth($colores, 2);
+$color-font-nav: nth($colores, 3);
+$color-font-hero: nth($colores, 4);
+$color-footer:nth($colores, 5);
