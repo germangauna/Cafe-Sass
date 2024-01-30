@@ -17,11 +17,16 @@
 }
 
 .cafe__content__title {
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .cafe__content__text {
     font-size: 20px;
+
 }
 
 .cafe__content__list {

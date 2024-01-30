@@ -3,8 +3,8 @@
 
 .cafe__rigth {
     width: 50%;
-    background-color: #292525;
-    color: #eee;
+    background-color: nth($colores, 5);
+    color: nth($colores, 2);
     margin: 5px;
 }
 

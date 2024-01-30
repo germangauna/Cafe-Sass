@@ -52,6 +52,10 @@ header {
   list-style-type: none;
 }
 
+.nav__lista__items:hover {
+  transform: scale(2);
+}
+
 /* hero */
 .hero {
   background-image: url(/multimedia/cafe01.jpg);
@@ -151,7 +155,11 @@ asi despues dividimos y display flex*/
 }
 
 .cafe__content__title {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .cafe__content__text {
@@ -194,8 +202,15 @@ asi despues dividimos y display flex*/
   padding: 35px 0px;
 }
 
+.footer__left__title {
+  font-size: 35px;
+}
+
 .footer__left {
+  display: flex;
+  flex-direction: column;
   color: #eee;
+  justify-content: center;
 }
 
 .footer__left li {
@@ -206,6 +221,7 @@ asi despues dividimos y display flex*/
   list-style-type: none;
   text-decoration: none;
   color: #eee;
+  font-size: 30px;
 }
 
 .footer__center iframe {

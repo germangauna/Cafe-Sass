@@ -32,6 +32,8 @@
     font-size: 24px;
 }
 
+
+
 /* a la lista de ancor le vamos a poder display flex para que se alinien uno al lado del otro,
  ya que por defecto es horizontal, para que nio qiueden pegados los ancor le vamos a poenr el 
  justify-content: space-around;*/
@@ -50,6 +52,10 @@
     list-style-type: none;
 }
 
+.nav__lista__items:hover {
+    transform: scale(2);
+
+}
 
 /* hero */
 

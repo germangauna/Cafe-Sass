@@ -13,8 +13,16 @@
     padding: 35px 0px;
 }
 
+.footer__left__title {
+    font-size: 35px;
+}
+
 .footer__left {
-    color: #eee;
+    display: flex;
+    flex-direction: column;
+    color:nth($colores, 2);
+    justify-content:center;
+
 }
  
 .footer__left li {
@@ -24,7 +32,10 @@
 .footer__left li a {
     list-style-type: none;
     text-decoration: none;
-    color: #eee;
+    color: nth($colores, 2);
+    font-size: 30px;
+    
+    
 }
 
 .footer__center iframe {
